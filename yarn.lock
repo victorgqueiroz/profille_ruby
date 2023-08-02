@@ -335,6 +335,11 @@ cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
+delaunay-fast@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/delaunay-fast/-/delaunay-fast-1.0.1.tgz#b50507cb0f1ff850ada0002b9e3ac289a7b52649"
+  integrity sha512-wX/+glfaGgQVPSlhWWhr4JY6KS5UE17wwk3YiRuzAIfRcKPbZzBfulnC5MXNgykcHlkmG0VrpjVoPqzopFecew==
+
 electron-to-chromium@^1.4.477:
   version "1.4.478"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.478.tgz#687198cfcef9b854a79a229feaa6cd8961206290"
