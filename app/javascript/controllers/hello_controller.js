@@ -2,6 +2,7 @@ import { Controller } from "@hotwired/stimulus"
 import Delaunay from 'delaunay-fast';
 
 
+
 // Settings
 let particleCount = 60;
 let flareCount = 30;
@@ -33,6 +34,7 @@ let orbitTilt = true;
 let randomMotion = true;
 let noiseLength = 1000;
 let noiseStrength = 1;
+
 
 export default class extends Controller {
   connect() {
