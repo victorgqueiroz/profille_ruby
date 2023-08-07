@@ -1,17 +1,27 @@
 <%= content_tag :div, class: "content" do %>
 
   <%= content_tag :navbar, id: "left" do %>
-      <%= content_tag :ul do %>
-    <%= content_tag :div, id: "container-bar" do %>
-       <%= content_tag :li, class: "nav-item about" do %>
+
+    <%= content_tag :ul do %>
+
+      <%= content_tag :div, id: "container-bar" do %>
+
+        <%= content_tag :li, class: "nav-item about" do %>
           <%= content_tag :h4, "ABOUT ME" %>
-          <%= content_tag :p, "WHO I AM" %>
         <% end %>
 
         <%= content_tag :li, class: "nav-item carrer" do %>
           <%= content_tag :h4, "MY CARRER" %>
-          <%= content_tag :p, "WORKS" %>
         <% end %>
+
+        <%= content_tag :li, class: "nav-item projects" do %>
+          <%= content_tag :h4, "PROJECTS" %>
+        <% end %>
+
+        <%= content_tag :li, class: "nav-item formation" do %>
+          <%= content_tag :h4, "FORMATION" %>
+        <% end %>
+
       <% end %>
     <% end %>
   <% end %>
@@ -25,6 +35,14 @@
 
     <%= content_tag :div, id: "carrer-page" do %>
         <%= render partial: "carrer"%>
+      <% end %>
+
+    <%= content_tag :div, id: "projects-page" do %>
+        <%= render partial: "projects"%>
+      <% end %>
+
+    <%= content_tag :div, id: "formation-page" do %>
+        <%= render partial: "formation"%>
       <% end %>
 
  <% end %>
