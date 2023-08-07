@@ -1,25 +1,30 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <div class="container-fluid">
+<%= content_tag :div, class: "content" do %>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <%= content_tag :navbar, id: "left" do %>
+      <%= content_tag :ul do %>
+    <%= content_tag :div, id: "container-bar" do %>
+       <%= content_tag :li, class: "nav-item about" do %>
+          <%= content_tag :h4, "ABOUT ME" %>
+          <%= content_tag :p, "WHO I AM" %>
+        <% end %>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto">
-          <li class="nav-item active">
-            <%= link_to "About me!", "#" , class: "nav-link" %>
-          </li>
-          <li class="nav-item">
-            <%= link_to "Formation", "#", class: "nav-link" %>
-          </li>
-          <li class="nav-item">
-            <%= link_to "Carrer", "#", class: "nav-link" %>
-          </li>
-          <li class="nav-item">
-            <%= link_to "Projects", "#", class: "nav-link" %>
-          </li>
-      </ul>
-    </div>
-  </div>
-</div>
+        <%= content_tag :li, class: "nav-item carrer" do %>
+          <%= content_tag :h4, "MY CARRER" %>
+          <%= content_tag :p, "WORKS" %>
+        <% end %>
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>
+
+ <%= content_tag :div, id: "content-container" do %>
+
+  <%= content_tag :div, id: "about-page" do %>
+        <%= render partial: "about"%>
+      <% end %>
+
+    <%= content_tag :div, id: "carrer-page" do %>
+        <%= render partial: "carrer"%>
+      <% end %>
+
+ <% end %>

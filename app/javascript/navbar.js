@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const listItems = document.querySelectorAll("aside#left ul li");
+  const listItems = document.querySelectorAll("navbar#left ul li");
 
   let selectedPartial = document.getElementById("about-page");
 
@@ -24,6 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Adiciona a classe "active" à segunda <li> (li.about) quando a página for carregada
-  const aboutLi = document.querySelector("aside#left ul li.about");
+  const aboutLi = document.querySelector("navbar#left ul li.about");
   aboutLi.classList.add("active");
 });
