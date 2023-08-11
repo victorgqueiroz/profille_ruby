@@ -26,4 +26,14 @@ body {
 .intro-name{
   background-color: rgba(255, 0, 0, 0);
   position: absolute;
+  margin-left: 60px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 1000;
+}
+
+.section-name{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
 }
