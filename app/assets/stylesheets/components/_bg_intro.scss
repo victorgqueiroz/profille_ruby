@@ -23,17 +23,29 @@ body {
   z-index: 1;
 }
 
-.intro-name{
+.intro-name {
+  color: white;
+  text-align: center;
   background-color: rgba(255, 0, 0, 0);
   position: absolute;
   margin-left: 60px;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 1000;
+  font-family: 'Michroma';
+  font-weight: 400;
 }
 
-.section-name{
+.section-name {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   align-items: center;
+}
+
+.my-name {
+  font-size: 80px;
+}
+
+.dev-info {
+  font-size: 30px;
+  top: 6px;
+  position: relative;
 }
