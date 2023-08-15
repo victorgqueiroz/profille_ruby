@@ -567,6 +567,6 @@ return float ?
 
 
 // init
-if (canvas) init();
-  }
+  if (canvas) init();
+    }
 }
