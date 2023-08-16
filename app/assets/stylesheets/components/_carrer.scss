@@ -1,0 +1,64 @@
+.container-carrer {
+  margin: 50px;
+  color: white;
+}
+
+.opaque {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 40px;
+  margin: 60px;
+}
+
+#opaque-png {
+  object-fit: cover;
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.opaque-text {
+  width: 700px;
+}
+
+.colegio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 40px;
+  margin: 60px;
+}
+
+#colegio-png {
+  object-fit: cover;
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.colegio-text {
+  width: 700px;
+}
+
+.band {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 40px;
+  margin: 60px;
+}
+
+#band-png {
+  object-fit: cover;
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.band-text {
+  width: 700px;
+}
