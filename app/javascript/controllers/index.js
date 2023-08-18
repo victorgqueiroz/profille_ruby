@@ -9,3 +9,6 @@ application.register("hello", HelloController)
 
 import AnimationController from "./animation_controller"
 application.register("animation", AnimationController)
+
+import AboutController from "./about_controller"
+application.register("about", AboutController)

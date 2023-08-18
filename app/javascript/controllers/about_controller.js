@@ -2,16 +2,16 @@ import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
   connect() {
-    console.log("animation conectado vers2");
+    console.log("about conectado");
 
     function isElementInViewport(el) {
       const rect = el.getBoundingClientRect();
       const windowHeight = window.innerHeight || document.documentElement.clientHeight;
 
-      return rect.top <= windowHeight && rect.right >= 100;
+      return rect.top <= windowHeight && rect.bottom >= 100;
     }
 
-    const jobs = document.querySelectorAll('.jobs');
+    const jobs = document.querySelectorAll('.about-text');
 
     function handleAnimations() {
       jobs.forEach(job => {

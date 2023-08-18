@@ -1,7 +1,5 @@
 AOS.init(); // Inicialize o AOS.js
 
-    console.log("animation conectado");
-
     const opaque = "cardAnimate1";
     const colegio = "cardAnimate2";
     const band = "cardAnimate3";
@@ -14,7 +12,7 @@ AOS.init(); // Inicialize o AOS.js
         const card = document.getElementById(cardId);
         if (card) {
           card.style.display = "none";
-          AOS.refresh();
+          AOS.refreshHard();
         }
       });
     }
@@ -24,7 +22,7 @@ AOS.init(); // Inicialize o AOS.js
       const card = document.getElementById(cardId);
       if (card) {
         card.style.display = "block";
-        AOS.refresh();
+        AOS.refreshHard();
       }
     }
 
