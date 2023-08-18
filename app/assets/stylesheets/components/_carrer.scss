@@ -10,14 +10,7 @@
   flex-wrap: nowrap;
   gap: 40px;
   margin: 60px;
-  animation: 3s linear 1s infinite running slidein;
 }
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
 
 #opaque-png {
   object-fit: cover;

@@ -4,5 +4,4 @@ import "./controllers"
 
 import "./navbar"
 import "./aos"
-import "./reload"
-import "./carrer"
+import "./controllers/animation_controller"

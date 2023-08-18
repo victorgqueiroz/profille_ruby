@@ -1,4 +1,9 @@
-AOS.init(); // Inicialize o AOS.js
+import { Controller } from "@hotwired/stimulus"
+import AOS from "aos";
+
+export default class extends Controller {
+  connect() {
+    AOS.init(); // Inicialize o AOS.js
 
     console.log("animation conectado");
 
@@ -30,3 +35,5 @@ AOS.init(); // Inicialize o AOS.js
 
     hideCards(); // Oculta todos os cards
     showCard(opaque); // Mostra o card "opaque" ao carregar a página
+  }
+}
