@@ -1,0 +1,24 @@
+.container-formation {
+  margin: 50px;
+  color: white;
+}
+
+.formation-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 40px;
+  margin: 60px;
+}
+
+#formation-png {
+  object-fit: cover;
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.formation-text {
+  width: 1000px;
+}
