@@ -7,11 +7,11 @@ import { application } from "./application"
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
 
+import FormationController from "./formation_controller"
+application.register("formation", FormationController)
+
 import AnimationController from "./animation_controller"
 application.register("animation", AnimationController)
 
 import AboutController from "./about_controller"
 application.register("about", AboutController)
-
-import FormationController from "./formation_controller"
-application.register("formation", FormationController)
