@@ -4,3 +4,4 @@ import "./controllers"
 
 import "./navbar"
 import "./aos"
+import "./carousel"
