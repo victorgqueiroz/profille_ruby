@@ -1,10 +1,15 @@
-.projects {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+.container {
+  margin: 50px;
 }
 
-.projects-text {
+.projects {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.projects-gringo {
   display: flex;
   flex-direction: row;
   /* align-content: center; */
@@ -12,10 +17,27 @@
   gap: 40px;
 }
 
-.gringo {
-  flex-direction: column;
+.projects-roast {
+  display: flex;
+  flex-direction: row;
+  /* align-content: center; */
+  align-items: center;
+  gap: 40px;
 }
 
+.projects-text {
+  color: white;
+}
+
+
 .carousel-img {
-  width: 30%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.carousel-img-roast {
+  width: 90%;
+  border-radius: 10px;
+  left: 09%;
+  position: relative;
 }

@@ -1,11 +1,11 @@
 <div class="container">
   <div class="projects">
-    <div class="projects-text">
-      <div class="gringo">
+    <div class="projects-gringo" data-aos="fade-left" data-aos-duration="500" data-aos-delay="5" data-controller="projects">
+      <div class="projects-text">
         <h3>Grin.go</h3>
         <p>Plataforma de conexão entre viajantes e locais</p>
       </div>
-      <div id="carousel-projects" class="carousel slide" data-ride="carousel">
+      <div id="carousel-projects" class="carousel slide col" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <%= image_tag "home.png", class: "carousel-img"%>
@@ -33,6 +33,22 @@
           </div>
         </div>
       </div>
+      </div>
+      <div class="projects-roast" data-aos="fade-left" data-aos-duration="500" data-aos-delay="5" data-controller="projects">
+        <div class="projects-text">
+          <h3>RoastHub</h3>
+          <p>Um Hub para vendas de cafés especiais</p>
+        </div>
+        <div id="carousel-projects" class="carousel slide col" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <%= image_tag "home_roast.png", class: "carousel-img-roast"%>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag "search_roast.png", class: "carousel-img-roast"%>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
 </div>
