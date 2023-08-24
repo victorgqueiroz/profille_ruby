@@ -11,7 +11,7 @@ export default class extends Controller {
       return rect.top <= windowHeight && rect.right >= 100;
     }
 
-    const projects = document.querySelectorAll('.projects-gringo');
+    const projects = document.querySelectorAll('.project-gringo');
 
     function handleAnimations() {
       projects.forEach(project => {
