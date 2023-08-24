@@ -1,4 +1,10 @@
 .projects {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.projects-text {
   display: flex;
   flex-direction: row;
   /* align-content: center; */
@@ -6,6 +12,10 @@
   gap: 40px;
 }
 
-.w-100 {
-  width: 60% !important;
+.gringo {
+  flex-direction: column;
+}
+
+.carousel-img {
+  width: 30%;
 }
