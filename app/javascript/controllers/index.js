@@ -15,3 +15,4 @@ application.register("animation", AnimationController)
 
 import AboutController from "./about_controller"
 application.register("about", AboutController)
+

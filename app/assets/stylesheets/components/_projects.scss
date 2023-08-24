@@ -1,0 +1,11 @@
+.projects {
+  display: flex;
+  flex-direction: row;
+  /* align-content: center; */
+  align-items: center;
+  gap: 40px;
+}
+
+.w-100 {
+  width: 60% !important;
+}
