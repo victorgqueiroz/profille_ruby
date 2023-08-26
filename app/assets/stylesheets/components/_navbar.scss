@@ -82,7 +82,7 @@ li.slider {
 .menu li:nth-child(1):focus,
 .menu li:nth-child(1):active {
   & ~ .slider {
-    left: 0;
+    left: 0% !important;
     background-color: #3498db;
   }
 }
@@ -92,7 +92,7 @@ li.slider {
 .menu li:nth-child(2):focus,
 .menu li:nth-child(2):active {
   & ~ .slider {
-    left: 25%;
+    left: 25% !important;
     background-color: #9b59b6;
   }
 }
@@ -101,7 +101,7 @@ li.slider {
 .menu li:nth-child(3):focus,
 .menu li:nth-child(3):active {
   & ~ .slider {
-    left: 50%;
+    left: 50% !important;
     background-color: #e67e22;
   }
 }
@@ -110,7 +110,7 @@ li.slider {
 .menu li:nth-child(4):focus,
 .menu li:nth-child(4):active {
   & ~ .slider {
-    left: 75%;
+    left: 75% !important;
     background-color: #16a085;
   }
 }
