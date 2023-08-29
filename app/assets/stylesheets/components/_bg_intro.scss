@@ -11,7 +11,6 @@ body {
 
 body {
   background-color: #2e2c2e; //#280B29
-  background: radial-gradient(ellipse at center, rgb(37, 35, 37) 0%, rgb(49, 39, 50) 100%);
 }
 
 #stars {
@@ -54,4 +53,8 @@ body {
 .phrase {
   font-style: italic;
   margin-top: 19px;
+}
+
+.container-intro {
+  background: radial-gradient(ellipse at center, #38528d 0%, #000000 100%);
 }
