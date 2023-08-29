@@ -2,8 +2,8 @@
   background: #0e0c0e;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 140px;
+  justify-content: center;
+  height: 200px;
   padding: 0px 50px;
   color: rgba(0, 0, 0, 0.3);
   flex-direction: column;
@@ -24,7 +24,7 @@
 .footer-links a {
   color: white;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 15px;
   padding: 0px 10px;
 }
 .footer-links a:hover {
@@ -58,7 +58,7 @@ ul.social-icons {
   -webkit-transition:.5s;
   transition: .5s;
   background-color: #322f30;
-  border-radius: 5px;
+  border-radius: 120px;
   font-size: 50px;
 }
 
@@ -73,7 +73,7 @@ ul.social-icons {
   -webkit-transition:.5s;
   transition: .5s;
   background-color: #322f30;
-  border-radius: 5px;
+  border-radius: 120px;
   font-size: 50px;
 }
 .fa-github:hover {
@@ -90,4 +90,27 @@ ul.social-icons {
 
 .fa-email {
   background-color: #0073a4;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.end-text {
+  color: white;
+  font-size: 25px;
+  /* margin: 21px; */
+  top: 25px;
+  position: relative;
+}
+
+.text-name {
+  color: white;
+  bottom: -30px;
+  /* gap: 10px; */
+  position: relative;
 }
