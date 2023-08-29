@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 200px;
+  height: 175px;
   padding: 0px 50px;
   color: rgba(0, 0, 0, 0.3);
   flex-direction: column;
@@ -11,7 +11,6 @@
 .footer-links {
   display: flex;
   flex-direction: row;
-  gap: 35px;
 }
 
 .footer-container {
@@ -59,7 +58,7 @@ ul.social-icons {
   transition: .5s;
   background-color: #322f30;
   border-radius: 120px;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .fa-linkedin:hover {
@@ -74,7 +73,7 @@ ul.social-icons {
   transition: .5s;
   background-color: #322f30;
   border-radius: 120px;
-  font-size: 50px;
+  font-size: 30px;
 }
 .fa-github:hover {
   background-color: #5a32a3;
