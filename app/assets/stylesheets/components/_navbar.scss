@@ -73,7 +73,7 @@ li.slider {
   left: 0;
   width: 25%;
   height: 51px;
-  background-color: #9a4ffc;
+  background-color: #8a8a8a;
   z-index: 8;
   transition: left .4s, background-color .4s;
 }
@@ -83,7 +83,7 @@ li.slider {
 .menu li:nth-child(1):active {
   & ~ .slider {
     left: 0% !important;
-    background-color: #8e38ff;
+    background-color: #6a6a6a;
   }
 }
 
@@ -93,7 +93,7 @@ li.slider {
 .menu li:nth-child(2):active {
   & ~ .slider {
     left: 25% !important;
-    background-color: #df7b00;
+    background-color: #555555;
   }
 }
 
@@ -102,7 +102,7 @@ li.slider {
 .menu li:nth-child(3):active {
   & ~ .slider {
     left: 50% !important;
-    background-color: #c56c01;
+    background-color: #464646;
   }
 }
 
@@ -111,7 +111,7 @@ li.slider {
 .menu li:nth-child(4):active {
   & ~ .slider {
     left: 75% !important;
-    background-color: #a45c04;
+    background-color: #363636;
   }
 }
 
