@@ -1,5 +1,5 @@
 .footer {
-  background: #0e0c0e;
+  background-color: #060725;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -112,4 +112,12 @@ ul.social-icons {
   bottom: -30px;
   /* gap: 10px; */
   position: relative;
+}
+
+hr {
+  color: white;
+  width: 343px;
+  border-width: 3px;
+  position: relative;
+  border-radius: 5px;
 }
