@@ -40,12 +40,12 @@
   padding: 0 .25rem;
   margin: 0 -.25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-  text-decoration: none !important;
 }
 
 .links:hover{
   color: #fff !important;
-  box-shadow: inset 240px 0 0 0 #54b3d6 !important;
+  box-shadow: inset 240px 0 0 0 #6a6a6a !important;
+  text-decoration: underline;
 }
 
 
