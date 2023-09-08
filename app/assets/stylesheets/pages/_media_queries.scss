@@ -1,4 +1,7 @@
 @media (max-width: 1300px){
+
+  /* ------------ ABOUT RESPONSIVE ------------ */
+
   .container-intro {
     width: 100%;
   }
@@ -8,7 +11,7 @@
   }
 
   .intro-name {
-    margin-left: 0px;
+    margin-left: -6vh;
     text-align: center;
     padding: 71px;
     top: 10px;
@@ -43,8 +46,156 @@
     color: white;
   }
 
-  #stars {
-
+  .about-text {
+    text-align: justify;
   }
+
+  #photo-png {
+    object-fit: cover;
+    width: 300px;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+  }
+    /* ------------ CARRER RESPONSIVE ------------ */
+
+
+  .container-carrer {
+    margin: 50px;
+    color: white;
+  }
+
+  .jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 40px;
+    margin: 60px;
+  }
+
+
+  #opaque-png {
+    object-fit: cover;
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .opaque-text {
+    width: 360px;
+    text-align: justify;
+  }
+
+  .colegio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 40px;
+    margin: 60px;
+  }
+
+  #colegio-png {
+    object-fit: cover;
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .colegio-text {
+    width: 360px;
+    text-align: justify;
+  }
+
+  .band {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 40px;
+    margin: 60px;
+  }
+
+  #band-png {
+    object-fit: cover;
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .band-text {
+    width: 360px;
+    text-align: justify;
+  }
+
+   /* ------------ PROJECTS RESPONSIVE ------------ */
+
+   .container {
+    margin: 50px;
+  }
+
+  .projects {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .projects-gringo {
+    display: flex;
+    flex-direction: row;
+    /* align-content: center; */
+    align-items: center;
+    gap: 40px;
+  }
+
+  .projects-roast {
+    display: flex;
+    flex-direction: row;
+    /* align-content: center; */
+    align-items: center;
+    gap: 40px;
+  }
+
+  .projects-text {
+    color: white;
+    width: 60%;
+  }
+
+  .projects-text p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+  }
+
+  .projects-text h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+  }
+
+  .links {
+    width: 242px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6 !important;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+
+  .links:hover{
+    color: #fff !important;
+    box-shadow: inset 240px 0 0 0 #6a6a6a !important;
+    text-decoration: underline;
+  }
+
+
+  .carousel-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
 
 }
