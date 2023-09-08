@@ -4,12 +4,14 @@
   }
 
   .intro-text {
-    width: 378px;
+    width: 100%
   }
 
   .intro-name {
-    right: 30px;
-    top: 90px;
+    margin-left: 0px;
+    text-align: center;
+    padding: 71px;
+    top: 10px;
   }
 
   .my-name {
@@ -24,7 +26,24 @@
     font-size: 15px;
   }
 
+  .content {
+    width: 100%;
+    /* left: 94px; */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
   .about {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    color: white;
+  }
+
+  #stars {
 
   }
 
