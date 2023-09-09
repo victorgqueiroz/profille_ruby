@@ -1,0 +1,240 @@
+@media (max-width: 1300px){
+
+  /* ------------ ABOUT RESPONSIVE ------------ */
+
+  .container-intro {
+    width: 100%;
+  }
+
+  .intro-text {
+    width: 100%
+  }
+
+  .intro-name {
+    margin-left: -6vh;
+    text-align: center;
+    padding: 71px;
+    top: 10px;
+  }
+
+  .my-name {
+    font-size: 50px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .nav-item a {
+    font-size: 15px;
+  }
+
+  .content {
+    width: 100%;
+    /* left: 94px; */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    color: white;
+  }
+
+  .about-text {
+    text-align: justify;
+  }
+
+  #photo-png {
+    object-fit: cover;
+    width: 300px;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+  }
+    /* ------------ CARRER RESPONSIVE ------------ */
+
+
+  .container-carrer {
+    margin: 50px;
+    color: white;
+  }
+
+  .jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 40px;
+    margin: 60px;
+  }
+
+
+  #opaque-png {
+    object-fit: cover;
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .opaque-text {
+    width: 360px;
+    text-align: justify;
+  }
+
+  .colegio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 40px;
+    margin: 60px;
+  }
+
+  #colegio-png {
+    object-fit: cover;
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .colegio-text {
+    width: 360px;
+    text-align: justify;
+  }
+
+  .band {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 40px;
+    margin: 60px;
+  }
+
+  #band-png {
+    object-fit: cover;
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .band-text {
+    width: 360px;
+    text-align: justify;
+  }
+
+   /* ------------ PROJECTS RESPONSIVE ------------ */
+
+   .container {
+    margin: 5px;
+  }
+
+  .projects {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .projects-gringo {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .projects-roast {
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+  .projects-text {
+    color: white;
+    width: 90%;
+    text-align: justify;
+  }
+
+  .projects-text p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+  }
+
+  .projects-text h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+  }
+
+  .links {
+    width: 242px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6 !important;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    left: 61px;
+  }
+
+  .links:hover{
+    color: #fff !important;
+    box-shadow: inset 222px 0 0 0 #6a6a6a !important;
+    text-decoration: underline;
+  }
+
+
+  .carousel-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  /*---------------- FORMATION RESPONSIVE -------------*/
+
+  .container-formation {
+    margin: 50px;
+    color: white;
+  }
+
+  .formation-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 47px;
+    margin: 50px;
+    left: -12px;
+    position: relative;
+  }
+
+  #formation-png {
+    object-fit: cover;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .formation-text {
+    width: 319px;
+    text-align: justify;
+  }
+
+
+  .formation-text p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+  }
+
+  .formation-text h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+  }
+
+
+
+}
