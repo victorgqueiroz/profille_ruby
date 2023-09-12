@@ -517,8 +517,9 @@
   }
 
   .intro-name {
-    margin-left: -4vh;
-    text-align: center;
+    margin-left: 260px;
+    margin-bottom: 120px;
+    text-align: left;
     padding: 70px;
     top: 56px;
   }
@@ -527,13 +528,12 @@
     display: block;
     position: relative;
     width: 100%;
-    height: 16rem;
     height: 93vh;
     z-index: 1;
   }
 
   .my-name {
-    font-size: 50px;
+    font-size: 80px;
   }
 
   .content {
